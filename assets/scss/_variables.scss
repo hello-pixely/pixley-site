@@ -1,0 +1,33 @@
+// Responsive elements
+$phablet: 550px !default;
+$mobile: 767px !default;
+$tablet: 769px !default;
+$desktop: 1024px !default;
+$widescreen: 1216px !default;
+$fullhd: 1408px !default;
+$family-sans-serif: "Lato", sans-serif;
+// Colors Variables
+$light: #ffffff;
+$grey: #f2f2f2;
+$error: #ff3860;
+$grey-lighter: hsl(0, 0%, 86%);
+// customize styles
+$black: #000000;
+$dark: #262727;
+$dark-grey: #5d5e5e;
+$darker-grey: #999999;
+$blue: #0021ff;
+$success: #00d3b2;
+$facebook: #3b5998;
+$linkedin: #007bb5;
+$twitter: #55acee;
+$primary: $blue;
+$input-focus-border-color: transparent;
+$input-focus-box-shadow-size: inset 0 0 0 2px;
+$input-focus-box-shadow-color: $black;
+$help-size: 0.9rem;
+// Modal
+$modal-card-body-background-color: white;
+$modal-background-background-color: rgba(#474747, 0.6);
+$modal-card-head-background-color: $light;
+$modal-card-head-radius: 4px;

@@ -1,0 +1,129 @@
+// #import variables
+@import "variables";
+// fonts
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// Animation
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transall {
+  @include transition(all 0.2s ease-in);
+}
+
+// Layout
+@mixin flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Responsiveness
+
+@mixin from($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin until($device) {
+  @media screen and (max-width: $device - 1px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin phablet {
+  @media screen and (min-width: $phablet) and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet), print {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+@mixin touch {
+  @media screen and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @if $widescreen-enabled {
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin until-widescreen {
+  @if $widescreen-enabled {
+    @media screen and (max-width: $widescreen - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin widescreen {
+  @if $widescreen-enabled {
+    @media screen and (min-width: $widescreen) {
+      @content;
+    }
+  }
+}
+
+@mixin widescreen-only {
+  @if $widescreen-enabled and $fullhd-enabled {
+    @media screen and (min-width: $widescreen) and (max-width: $fullhd - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin until-fullhd {
+  @if $fullhd-enabled {
+    @media screen and (max-width: $fullhd - 1px) {
+      @content;
+    }
+  }
+}
+
+@mixin fullhd {
+  @if $fullhd-enabled {
+    @media screen and (min-width: $fullhd) {
+      @content;
+    }
+  }
+}
