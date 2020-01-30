@@ -28,10 +28,10 @@ module.exports = {
    */
   loading: { color: "#3B8070" },
 
-  router: {
-    // base: "/staging/signup/"
-    base: "/pixform/"
-  },
+  // router: {
+  //   // base: "/staging/signup/"
+  //   base: "/pixform/"
+  // },
 
   /*
    ** Global CSS
