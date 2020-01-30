@@ -70,6 +70,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "greycliff_cfextra_bold";
+  src: url("../fonts/greycliffcf-extrabold-webfont.woff2") format("woff2"),
+    url("../fonts/greycliffcf-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "greycliff_cfbold";
+  src: url("../fonts/greycliffcf-bold-webfont.woff2") format("woff2"),
+    url("../fonts/greycliffcf-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *::after,
 *::before {
@@ -191,7 +207,7 @@ a:focus {
 }
 
 .pixely button {
-  font-family: "greycliff_cfdemi_bold";
+  font-family: "greycliff_cfextra_bold";
   font-weight: bold;
 }
 
@@ -291,7 +307,7 @@ a:focus {
 
 @media only screen and (min-width: 1399px) {
   .pixely h1 {
-    font-size: 50px;
+    font-size: 52px;
     width: 520px;
     margin-top: 60px;
     margin-bottom: 50px;
@@ -341,7 +357,7 @@ a:focus {
 }
 
 .pixely button {
-  font-family: "greycliff_cfdemi_bold";
+  font-family: "greycliff_cfbold";
   background-color: white;
   color: #02f;
   border: 0;
@@ -351,6 +367,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: 800;
   pointer-events: auto;
+  letter-spacing: 0.5px;
 }
 
 .pixely p {
