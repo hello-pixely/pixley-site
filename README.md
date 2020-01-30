@@ -15,6 +15,8 @@ $ npm run dev
 $ npm run build
 $ npm start
 
+cd /Users/pixely/Documents/pixley-forms
+
 # generate static project
 $ npm run generate
 ```
