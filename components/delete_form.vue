@@ -105,8 +105,8 @@
             <input rule="checked" type="checkbox" name="checkboxTos" @change="checkboxTos = $event.target.checked ? true : null" v-model='checkboxTos' v-validate="{required: true}" :class="{'pxl': true, 'is-danger': errors.has('checked') } ">
             <div v-show="!errors.has('checkboxTos')" class="control__indicator dk"></div>
             <div v-show="errors.has('checkboxTos')" class="control__indicator dk pxl"></div>
-            <div v-show="!errors.has('checkboxTos')" class="help checkbox-helper">I agree to <a href="https://pixely.com/terms-of-service/" target="_blank">Pixely's terms of service</a></div>
-            <div v-show="errors.has('checkboxTos')" class="help is-danger checkbox-helper">I agree to <a href="https://pixely.com/terms-of-service/" target="_blank">Pixely's terms of service</a></div>
+            <div v-show="!errors.has('checkboxTos')" class="help checkbox-helper">I agree to <a href="https://www.pixely.com/web/terms-of-service/" target="_blank">Pixely's terms of service</a></div>
+            <div v-show="errors.has('checkboxTos')" class="help is-danger checkbox-helper">I agree to <a href="https://www.pixely.com/web/terms-of-service/" target="_blank">Pixely's terms of service</a></div>
         </label>
     </div>
 
