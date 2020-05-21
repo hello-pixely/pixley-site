@@ -42,6 +42,7 @@
         <a
           href="https://pixely.sitesandservices.com/login"
           class="button is-rounded is-primary"
+          target="_blank"
           >login</a
         >
       </li>

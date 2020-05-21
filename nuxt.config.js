@@ -18,6 +18,11 @@ module.exports = {
         content: "Functional website for hellopixely"
       }
     ],
+    buildModules: [
+      ['@nuxtjs/google-analytics', {
+        id: 'UA-155537906-2'
+      }]
+    ],
     script: [
       { src: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js" }
     ],
@@ -36,6 +41,7 @@ module.exports = {
   /*
    ** Global CSS
    */
+  plugins: [{src:"~plugins/drift.js", mode:'client'}],
   css: [{ src: "~/assets/scss/main.scss", lang: "scss" }],
 
   /*

@@ -3,7 +3,7 @@
     <!-- <a href="http://staging.pixely.com/backup">Let's go there </a> -->
 
     <h1>Sign-up here for FREE!</h1>
-    <h4>You’re 60 seconds away from a Pixel Perfect WordPress Hosting</h4>
+    <h4>You’re 60 seconds away from a Pixel Perfect Website</h4>
 
     <!-- Begin MailChimp Signup Form -->
 
@@ -35,7 +35,7 @@
                   >
                   <img src="~/assets/portfolio.jpg" alt="Hello Pixely" />
                 </div>
-                <a href="https://www.google.com" target="blank"
+                <a href="https://portfolio.mysites.io/" target="blank"
                   ><div class="small-btn">View site</div></a
                 >
               </div>
@@ -52,7 +52,7 @@
                   >
                   <img src="~/assets/modern.jpg" alt="Hello Pixely" />
                 </div>
-                <a href="https://www.google.com" target="blank"
+                <a href="https://modern.mysites.io/" target="blank"
                   ><div class="small-btn">View site</div></a
                 >
               </div>
@@ -65,11 +65,11 @@
                     value="3"
                   />
                   <label for="professionel"
-                    ><h2><strong>Professionel</strong></h2></label
+                    ><h2><strong>Professional</strong></h2></label
                   >
-                  <img src="~/assets/professionel.jpg" alt="Hello Pixely" />
+                  <img src="~/assets/professional.jpg" alt="Hello Pixely" />
                 </div>
-                <a href="https://www.google.com" target="blank"
+                <a href="https://professional.mysites.io/" target="blank"
                   ><div class="small-btn">View site</div></a
                 >
               </div>
@@ -190,7 +190,7 @@
             <p><strong>£50</strong></p>
           </div>
           <small
-            >*Hello world some copy text will be added here later on.</small
+            >*30-day money-back guarantee and 24/7 customer support. After 3 months, hosting will be £8/month.</small
           >
         </div>
         <p class="footnote hiden-block-is-now">
@@ -222,7 +222,7 @@
             >
               I agree to
               <a
-                href="https://www.pixely.com/web/terms-of-service/"
+                href="https://www.pixely.dev/terms-of-service/"
                 target="_blank"
                 >Pixely's terms of service</a
               >
@@ -678,6 +678,7 @@ export default {
   flex-direction: column;
   small {
     align-self: flex-start;
+    text-align: left;
     margin-top: 30px;
   }
   & div {
