@@ -99,7 +99,7 @@
               :class="{ input: true, 'is-danger': errors.has('FIRST') }"
               class="input is-medium"
               type="text"
-              placeholder="Enter your site's name"
+              placeholder="Enter your first name"
               id="mce-FIRST"
             />
             <i v-show="errors.has('FIRST')" class="fa fa-warning"></i>
@@ -119,7 +119,7 @@
               :class="{ input: true, 'is-danger': errors.has('LASTNAME') }"
               class="input is-medium"
               type="text"
-              placeholder="Enter your site's name"
+              placeholder="Enter your last name"
               id="mce-LASTNAME"
             />
             <i v-show="errors.has('LASTNAME')" class="fa fa-warning"></i>
