@@ -176,7 +176,7 @@
               <span class="active">Select your website</span>
               <span class="portfolio">Portfolio (One-time payment)</span
               ><span class="modern">Modern (One-time payment)</span
-              ><span class="professionel">Professionel (One-time payment)</span>
+              ><span class="professionel">Professional (One-time payment)</span>
             </p>
             <p>£50</p>
           </div>
@@ -190,7 +190,7 @@
             <p><strong>£50</strong></p>
           </div>
           <small
-            >*30-day money-back guarantee and 24/7 customer support. After 3 months, hosting will be £8/month.</small
+            >*30-day money-back guarantee and 24/7 customer support. After 30 days only £8/month. No commitment, cancel any time.</small
           >
         </div>
         <p class="footnote hiden-block-is-now">

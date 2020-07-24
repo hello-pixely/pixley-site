@@ -13,23 +13,23 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.3.0",
-    "bulma": "^0.8.0",
-    "moment": "^2.24.0",
-    "nuxt": "^2.11.0"
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "bulma": "^0.8.2",
+    "moment": "^2.27.0",
+    "nuxt": "^2.13.3"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "bulma-tooltip": "^3.0.2",
     "eslint": "^6.8.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^3.0.3",
-    "eslint-plugin-vue": "^6.1.2",
-    "gsap": "^3.0.5",
+    "eslint-loader": "^3.0.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "gsap": "^3.4.2",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.0",
-    "vee-validate": "^2.1.0-beta.2",
+    "sass-loader": "^8.0.2",
+    "vee-validate": "^2.2.15",
     "vue-style-loader": "^4.1.2"
   }
 }
